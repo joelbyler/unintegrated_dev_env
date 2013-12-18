@@ -1,0 +1,27 @@
+{
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.6.6"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "dependencies": {},
+  "readmeFilename": "README",
+  "gitHead": "eea2951abbcce3a658260b40bfbe35c273aa279e",
+  "main": "game_of_life.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "grunt-contrib-jshint": "latest",
+    "should": "latest",
+    "sinon": "latest",
+    "grunt": "~0.4.1",
+    "grunt-mocha-test": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-notify": "latest",
+    "grunt-contrib-jasmine": "~0.5.2"
+  }
+}

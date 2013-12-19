@@ -29,7 +29,7 @@ namespace Roman
 
         public String Convert(int number)
         {
-        	String result = "";
+        	String result = String.Empty;
             foreach (KeyValuePair<String, int> numeral in MAPPING)
             {
                 while (number >= numeral.Value)

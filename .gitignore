@@ -3,3 +3,6 @@
 build
 node_modules
 tmp
+Giles.*
+Nunit.*
+Mono.Gendarme.*

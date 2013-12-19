@@ -9,3 +9,5 @@ Nunit.*
 Mono.Gendarme.*
 eclimd.log
 .metadata
+obj
+bin

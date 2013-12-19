@@ -5,11 +5,14 @@ nuget for package management
 
     <?xml version="1.0" encoding="utf-8"?>
     <packages>
-        <package id="SomePackage" version="2.1.0" allowedVersions="[2,3)" />
+        <package id="nunit" version="2.6.3" allowedVersions="[2,3)" />
+        <package id="giles" version="0.1.5" allowedVersions="[2,3)" />
     </packages>
 
-PM> Enable-PackageRestore
+C:\...>nuget restore -PackagesDirectory packages
 
+
+PM> Enable-PackageRestore
 Attempting to resolve dependency 'NuGet.CommandLine (≥ 1.4)'.
 Successfully installed 'NuGet.CommandLine 1.4.20615.182'.
 Successfully installed 'NuGet.Build 0.16'.

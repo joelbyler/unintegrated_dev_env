@@ -5,11 +5,12 @@ $ nuget restore -PackagesDirectory packages
 
 STATIC CODE ANALYSIS:
 ```shell
-$ .\packages\Mono.Gendarme.2.11.0.20121120\tools\gendarme.exe .\RomanNumeral\bin\Debug\RomanNumeral.dll
+$ gendarme.exe .\RomanNumeral\bin\Debug\RomanNumeral.dll
 ```
 
 START AUTOTEST:
 ```shell
-$ powershell
-$ .\giles.ps1
+$ powershell .\giles.ps1
 ```
+
+P.S. reference batch files for additional help executing these commands

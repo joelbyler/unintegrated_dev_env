@@ -14,8 +14,9 @@ public class RomanNumeralServlet extends HttpServlet {
   private static final long serialVersionUID = 1L;
 
   @Override
-  protected void doGet(HttpServletRequest req, HttpServletResponse resp)  
-          throws ServletException, IOException {        
-    resp.getOutputStream().write("Hello World!!!!".getBytes(Charset.forName("UTF-8")));
+  protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {        
+    int number = Integer.parseInt((String) req.getParameter("n"));
+    String roman = new RomanNumeral().convert(number);
+    resp.getOutputStream().write(roman.getBytes(Charset.forName("UTF-8")));
   }
 }

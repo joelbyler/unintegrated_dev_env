@@ -3,6 +3,7 @@ apply plugin: 'build-announcements'
 apply plugin: 'war'
 apply plugin: 'jetty'
 apply plugin: 'eclipse-wtp'
+apply plugin: 'findbugs'
 
 repositories {
   mavenCentral()

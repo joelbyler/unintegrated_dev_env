@@ -13,6 +13,9 @@ C:\...>nuget restore -PackagesDirectory packages
 
 
 PM> Enable-PackageRestore
+nuget install packages.config
+
+
 Attempting to resolve dependency 'NuGet.CommandLine (≥ 1.4)'.
 Successfully installed 'NuGet.CommandLine 1.4.20615.182'.
 Successfully installed 'NuGet.Build 0.16'.
@@ -24,3 +27,9 @@ Successfully uninstalled 'NuGet.CommandLine 1.4.20615.182'.
 Don't forget to commit the .nuget folder
 Updated 'Mvc3Application' to use 'NuGet.targets'
 Enabled package restore for Mvc3Application
+
+
+Create Solution RomanNumeral
+Create Project RomanNumeralTesta
+Create Project RomanNumeral
+Open Dialog 

@@ -32,13 +32,13 @@ public class RomanNumeral {
   }
 
   public String convert(int number){
-    String numeral = "";
+    StringBuffer numeral = new StringBuffer();
     for(Numeral romanNumber : Numeral.values()) {
       while(number>=romanNumber.getNumber()){
-        numeral += romanNumber.getRoman();
+        numeral.append(romanNumber.getRoman());
         number -= romanNumber.getNumber();
       }
     }
-    return numeral;
+    return numeral.toString();
   }
 }

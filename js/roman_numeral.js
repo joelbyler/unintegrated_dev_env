@@ -1,4 +1,6 @@
-'use strict';
+(function () {
+   "use strict";
+}());
 
 var RomanNumeral = function (number) { };
 
@@ -16,7 +18,8 @@ var MAPPING = {
   'V': 5,
   'IV': 4,
   'I': 1,
-}
+};
+
 RomanNumeral.prototype.convert = function(number) {
   var result = '';
   for (var key in MAPPING) {

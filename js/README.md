@@ -1,5 +1,9 @@
 INSTALL DEPENDENCIES:
-npm install
+```shell
+$ npm install
+```
 
 START AUTOTEST:
-grunt watch
+```shell
+$ grunt watch
+```

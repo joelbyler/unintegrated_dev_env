@@ -21,7 +21,6 @@
     "grunt": "~0.4.1",
     "grunt-mocha-test": "latest",
     "grunt-contrib-watch": "latest",
-    "grunt-notify": "latest",
-    "grunt-contrib-jasmine": "~0.5.2"
+    "grunt-notify": "latest"
   }
 }

@@ -1,0 +1,4 @@
+ClassLineCountCheck:
+  threshold: 50
+MethodNameCheck:
+  pattern: '^[a-z].*'

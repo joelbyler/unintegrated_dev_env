@@ -3,12 +3,12 @@ INSTALL DEPENDENCIES:
 $ bundle install
 ```
 
-AUTOTEST:
-```shell
-$ bundle exec guard -i
-```
-
 STATIC CODE ANALYSIS:
 ```shell
 $ excellent lib
+```
+
+AUTOTEST:
+```shell
+$ bundle exec guard -i
 ```

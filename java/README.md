@@ -1,8 +1,3 @@
-START Jetty:
-```shell
-$ gradle jettyRun
-```
-
 INSTALL GUARD DEPENDENCIES:
 ```shell
 $ bundle install
@@ -11,4 +6,9 @@ $ bundle install
 START AUTOTEST VIA GUARD:
 ```shell
 $ bundle exec guard -i
+```
+
+START Jetty:
+```shell
+$ gradle jettyRun
 ```

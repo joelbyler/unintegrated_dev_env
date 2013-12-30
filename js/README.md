@@ -3,6 +3,11 @@ INSTALL DEPENDENCIES:
 $ npm install
 ```
 
+RUN TESTS:
+```shell
+$ grunt
+```
+
 START AUTOTEST:
 ```shell
 $ grunt watch

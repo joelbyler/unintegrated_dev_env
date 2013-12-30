@@ -10,6 +10,7 @@ guard :rspec, :cmd => 'rspec --color --format Fuubar' do
   watch('spec/spec_helper.rb')  { "spec" }
 end
 
+# todo
 # guard :excellent, :cmd => 'excellent lib' do
 #   watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
 # end

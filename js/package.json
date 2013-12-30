@@ -6,10 +6,11 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
-  "dependencies": {},
+  "dependencies": {
+  },
   "readmeFilename": "README",
   "gitHead": "eea2951abbcce3a658260b40bfbe35c273aa279e",
-  "main": "game_of_life.js",
+  "main": "lib/game_of_life.js",
   "directories": {
     "test": "test"
   },

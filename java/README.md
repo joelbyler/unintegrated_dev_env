@@ -1,3 +1,9 @@
+
+START AUTOTEST VIA GUARD:
+```shell
+$ gradle findbugsMain
+```
+
 INSTALL GUARD DEPENDENCIES:
 ```shell
 $ bundle install

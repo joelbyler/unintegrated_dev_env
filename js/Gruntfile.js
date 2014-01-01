@@ -16,13 +16,12 @@ module.exports = function(grunt) {
     },
     watch: {
       scripts: {
-        files: ['*.js', 'test/*.js'],
-        tasks: ['mochaTest', 'jshint'],
-        
-      },
+        files: ['lib/*.js', 'test/*.js'],
+        tasks: ['mochaTest', 'jshint']
+      }
     },
     jshint: {
-      all: ['Gruntfile.js',  'roman_numeral.js', 'lib/**/*.js', 'test/**/*.js']
+      all: ['Gruntfile.js', 'lib/**/*.js', 'test/**/*.js']
     }
   });
 

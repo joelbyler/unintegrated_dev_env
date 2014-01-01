@@ -1,5 +1,5 @@
 
-START AUTOTEST VIA GUARD:
+STATIC CODE ANALYSIS:
 ```shell
 $ gradle findbugsMain
 ```
@@ -11,10 +11,15 @@ $ bundle install
 
 START AUTOTEST VIA GUARD:
 ```shell
-$ bundle exec guard -i
+$ bundle exec guard
 ```
 
 START Jetty:
 ```shell
 $ gradle jettyRun
+```
+
+STOP GRADLE DAEMON (started by guard):
+```shell
+$ gradle --stop
 ```

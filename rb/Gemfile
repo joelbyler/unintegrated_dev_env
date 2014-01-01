@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'excellent'
 gem 'rake'
 gem 'fuubar'
 gem 'growl'
 gem 'guard-rspec'
+gem 'guard-rubocop'

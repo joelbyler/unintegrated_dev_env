@@ -3,11 +3,6 @@ INSTALL DEPENDENCIES:
 $ bundle install
 ```
 
-STATIC CODE ANALYSIS:
-```shell
-$ excellent lib
-```
-
 RUN TESTS:
 ```shell
 $ bundle exec rake

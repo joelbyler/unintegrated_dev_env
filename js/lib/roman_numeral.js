@@ -32,3 +32,4 @@ RomanNumeral.prototype.convert = function(number) {
 };
 
 module.exports = RomanNumeral;
+

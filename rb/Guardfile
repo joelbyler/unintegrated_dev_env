@@ -1,7 +1,4 @@
-# A sample Guardfile
-# More info at https://github.com/guard/guard#readme
-
-notification :growl, sticky: true
+notification :growl, sticky: false
 notification :terminal_title
 
 guard :rspec, :cmd => 'rspec --color --format Fuubar' do
@@ -10,7 +7,7 @@ guard :rspec, :cmd => 'rspec --color --format Fuubar' do
   watch('spec/spec_helper.rb')  { "spec" }
 end
 
-# todo
-# guard :excellent, :cmd => 'excellent lib' do
-#   watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
-# end
+guard :rubocop do
+  watch(%r{.+\.rb$})
+  watch(%r{(?:.+/)?\.rubocop\.yml$}) { |m| File.dirname(m[0]) }
+end

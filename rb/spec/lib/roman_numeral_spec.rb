@@ -27,34 +27,4 @@ describe RomanNumeral do
   it '10 to X' do
     numeral.convert(10).should == 'X'
   end
-  it '11 to XI' do
-    numeral.convert(11).should == 'XI'
-  end
-  it '40 to XL' do
-    numeral.convert(40).should == 'XL'
-  end
-  it '50 to L' do
-    numeral.convert(50).should == 'L'
-  end
-  it '90 to XC' do
-    numeral.convert(90).should == 'XC'
-  end
-  it '100 to C' do
-    numeral.convert(100).should == 'C'
-  end
-  it '400 to CD' do
-    numeral.convert(400).should == 'CD'
-  end
-  it '500 to D' do
-    numeral.convert(500).should == 'D'
-  end
-  it '900 to CM' do
-    numeral.convert(900).should == 'CM'
-  end
-  it '1000 to M' do
-    numeral.convert(1000).should == 'M'
-  end
-  it '2999 to MMCMXCIX' do
-    numeral.convert(2999).should == 'MMCMXCIX'
-  end
 end

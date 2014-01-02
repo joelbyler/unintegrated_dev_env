@@ -27,35 +27,5 @@ describe('RomanNumeral', function() {
   it('10 to X', function() {
     numeral.convert(10).should.equal('X');
   });
-  it('11 to XI', function() {
-    numeral.convert(11).should.equal('XI');
-  });
-  it('40 to XL', function() {
-    numeral.convert(40).should.equal('XL');
-  });
-  it('50 to L', function() {
-    numeral.convert(50).should.equal('L');
-  });
-  it('90 to XC', function() {
-    numeral.convert(90).should.equal('XC');
-  });
-  it('100 to C', function() {
-    numeral.convert(100).should.equal('C');
-  });
-  it('400 to CD', function() {
-    numeral.convert(400).should.equal('CD');
-  });
-  it('500 to D', function() {
-    numeral.convert(500).should.equal('D');
-  });
-  it('900 to CM', function() {
-    numeral.convert(900).should.equal('CM');
-  });
-  it('1000 to M', function() {
-    numeral.convert(1000).should.equal('M');
-  });
-  it('2999 to MMCMXCIX', function() {
-    numeral.convert(2999).should.equal('MMCMXCIX');
-  });
 });
 

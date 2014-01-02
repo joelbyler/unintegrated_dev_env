@@ -3,14 +3,6 @@ package org.codemash;
 public class RomanNumeral {
 
   private enum Numeral {
-    ONETHOUSAND(1000, "M"),
-    NINEHUNDRED(900, "CM"),
-    FIVEHUNDRED(500, "D"),
-    FOURHUNDRED(400, "CD"),
-    ONEHUNDRED(100, "C"),
-    NINETY(90, "XC"),
-    FIFTY(50, "L"),
-    FOURTY(40, "XL"),
     TEN(10, "X"),
     NINE(9, "IX"),
     FIVE(5, "V"),
@@ -32,13 +24,13 @@ public class RomanNumeral {
   }
 
   public String convert(int number){
-    StringBuffer numeral = new StringBuffer();
+    String numeral = "";
     for(Numeral romanNumber : Numeral.values()) {
       while(number>=romanNumber.getNumber()){
-        numeral.append(romanNumber.getRoman());
+        numeral += romanNumber.getRoman();
         number -= romanNumber.getNumber();
       }
     }
-    return numeral.toString();
+    return numeral;
   }
 }

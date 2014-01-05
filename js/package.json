@@ -6,14 +6,14 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
-  "dependencies": {
-    "underscore": "latest"
-  },
   "readmeFilename": "README",
   "gitHead": "eea2951abbcce3a658260b40bfbe35c273aa279e",
   "main": "lib/roman_numeral.js",
   "directories": {
     "test": "test"
+  },
+  "dependencies": {
+    "underscore": "latest"
   },
   "devDependencies": {
     "mocha": "latest",

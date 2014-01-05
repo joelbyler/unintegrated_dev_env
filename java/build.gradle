@@ -1,9 +1,9 @@
-apply plugin: 'build-announcements'
 apply plugin: 'java'
 apply plugin: 'war'
 apply plugin: 'jetty'
 apply plugin: 'eclipse-wtp'
 apply plugin: 'findbugs'
+apply plugin: 'build-announcements'
 
 repositories {
   mavenCentral()
@@ -19,4 +19,11 @@ dependencies {
 jettyRun {
   contextPath = ''
   scanIntervalSeconds = 1
+}
+
+findbugsMain {
+  reports {
+    xml.enabled = false
+    html.enabled = true
+  }
 }

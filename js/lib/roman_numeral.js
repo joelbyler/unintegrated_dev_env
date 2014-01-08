@@ -1,5 +1,5 @@
 (function () {
-   "use strict";
+   'use strict';
 }());
 
 var RomanNumeral = function (number) { };
@@ -32,4 +32,3 @@ RomanNumeral.prototype.convert = function(number) {
 };
 
 module.exports = RomanNumeral;
-

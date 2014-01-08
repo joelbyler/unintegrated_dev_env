@@ -18,6 +18,5 @@ public class RomanNumeralServlet extends HttpServlet {
     int number = Integer.parseInt((String) req.getParameter("n"));
     String roman = new RomanNumeral().convert(number);
     resp.getOutputStream().write(roman.getBytes(Charset.forName("UTF-8")));
-    // Charset.forName("UTF-8")));
   }
 }

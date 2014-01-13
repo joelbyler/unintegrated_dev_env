@@ -1,3 +1,5 @@
+# Encoding: utf-8
+
 # roman numeral conversion class
 class RomanNumeral
   MAPPING = {

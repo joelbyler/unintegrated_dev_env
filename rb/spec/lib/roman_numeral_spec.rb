@@ -1,8 +1,10 @@
+# Encoding: utf-8
+
 require 'spec_helper'
 require 'roman_numeral'
 
 describe RomanNumeral do
-  let(:numeral){ RomanNumeral.new }
+  let(:numeral) { RomanNumeral.new }
   it '1 to I' do
     numeral.convert(1).should == 'I'
   end
